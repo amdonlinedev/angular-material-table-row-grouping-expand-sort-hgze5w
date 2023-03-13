@@ -50,7 +50,7 @@ export class AppComponent implements OnInit {
     //   {
     //     field: 'year',
     //   },
-    //   {
+    //   { 
     //     field: 'color',
     //   },
     // ];
