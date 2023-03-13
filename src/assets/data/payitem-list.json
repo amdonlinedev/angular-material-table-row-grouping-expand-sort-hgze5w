@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "workitem": "PART A",
+      "payitem": "Payitem Description"
+    },
+    {
+      "workitem": "PART B",
+      "payitem": "Payitem Description"
+    },
+    {
+      "workitem": "PART B",
+      "payitem": "Payitem Description"
+    },
+    {
+      "workitem": "PART C",
+      "payitem": "Payitem Description"
+    },
+    {
+      "workitem": "PART D",
+      "payitem": "Payitem Description"
+    },
+    {
+      "workitem": "PART D",
+      "payitem": "Payitem Description"
+    },
+    {
+      "workitem": "PART D",
+      "payitem": "Payitem Description"
+    },
+    { 
+      "workitem": "PART D",
+      "payitem": "Payitem Description"
+    }
+  ]
+}
