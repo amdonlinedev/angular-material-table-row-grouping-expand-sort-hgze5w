@@ -31,6 +31,14 @@
     { 
       "workitem": "PART D",
       "payitem": "Payitem Description"
-    }
+    },
+    {
+      "workitem": "PART E",
+      "payitem": "Payitem Description"
+    },
+    {
+      "workitem": "PART F",
+      "payitem": "Payitem Description"
+    },
   ]
 }

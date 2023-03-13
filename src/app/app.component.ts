@@ -37,23 +37,23 @@ export class AppComponent implements OnInit {
   @ViewChild(MatSort) sort: MatSort;
 
   constructor(protected dataSourceService: CarTableDataService) {
-    this.columns = [
-      {
-        field: 'id',
-      },
-      {
-        field: 'vin',
-      },
-      {
-        field: 'workitem',
-      },
-      {
-        field: 'year',
-      },
-      {
-        field: 'color',
-      },
-    ];
+    // this.columns = [
+    //   {
+    //     field: 'id',
+    //   },
+    //   {
+    //     field: 'vin',
+    //   },
+    //   {
+    //     field: 'workitem',
+    //   },
+    //   {
+    //     field: 'year',
+    //   },
+    //   {
+    //     field: 'color',
+    //   },
+    // ];
 
     this.columns = [
       {
@@ -80,6 +80,7 @@ export class AppComponent implements OnInit {
           this.groupByColumns
         );
         this.groupHeaderClick(null);
+        
       },
       (err: any) => console.log(err)
     );
