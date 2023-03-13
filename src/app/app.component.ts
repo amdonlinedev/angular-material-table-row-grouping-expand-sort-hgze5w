@@ -72,7 +72,7 @@ export class AppComponent implements OnInit {
     this.dataSourceService.getAllData().subscribe(
       (data: any) => {
         data.data.forEach((item, index) => {
-          item.id = index + 1;
+          item.id = index + 1;  
         });
         this.allData = data.data;
         this.dataSource.data = this.getGroups(
@@ -80,7 +80,7 @@ export class AppComponent implements OnInit {
           this.groupByColumns
         );
         this.groupHeaderClick(null);
-        
+
       },
       (err: any) => console.log(err)
     );
