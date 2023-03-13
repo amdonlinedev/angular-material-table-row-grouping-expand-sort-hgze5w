@@ -69,7 +69,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.dataSourceService.getAllData().subscribe(
+    this.dataSourceService.getAllData().subscribe( 
       (data: any) => {
         data.data.forEach((item, index) => {
           item.id = index + 1;  
